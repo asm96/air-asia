@@ -1,0 +1,17 @@
+.banner {
+  min-height: 363px;
+  color: #fff;
+  background: url(../../img/decor/couple.png) right 9% bottom no-repeat, url(../../img/bg/middleline.jpeg) center center / cover no-repeat;
+}
+
+.banner__container {
+  min-height: inherit;
+  display: flex;
+  align-items: center;
+}
+
+.banner__title {
+  font-weight: 700;
+  font-size: 48px;
+  max-width: 50%;
+}

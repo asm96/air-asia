@@ -1,0 +1,20 @@
+.top-line {
+  background: url(../../img/bg/headline.jpeg) center center / cover no-repeat;
+  min-height: 412px;
+  display: flex;
+  padding-bottom: 23px;
+}
+
+.top-line__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.top-line__title {
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 1.34;
+  margin-bottom: 57px;
+}

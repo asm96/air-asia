@@ -1,0 +1,13 @@
+.logo {
+  margin-right: 79px;
+}
+
+.logo__img {
+  width: 98px;
+  height: 42px;
+}
+
+.logo_main .logo__img {
+  width: 85px;
+  height: 36px;
+}

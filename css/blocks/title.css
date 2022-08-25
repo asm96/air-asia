@@ -1,0 +1,15 @@
+.title {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.title_fire::after {
+  content: "";
+  display: block;
+  background: url(../../img/icons/sprite.png) -178px -106px;
+  height: 28px;
+  width: 21px;
+  margin-left: 13px;
+}

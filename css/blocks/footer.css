@@ -1,0 +1,9 @@
+.footer__container {
+  display: flex;
+  align-items: center;
+  padding: 41px 0;
+}
+
+.footer_main .footer__container {
+  border-top: 1px solid rgba(255, 255, 255, .1);
+}

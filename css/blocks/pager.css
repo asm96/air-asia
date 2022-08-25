@@ -1,0 +1,49 @@
+.pager, .pager__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pager__display {
+  margin-right: 25px;
+}
+
+.pager__item {
+  text-align: center;
+}
+
+.pager__item:hover .pager__link {
+  background: #fff;
+  color: #F5170E;
+}
+
+.pager__item_active .pager__link {
+  background: #fff;
+  color: #F5170E;
+}
+
+.pager__item_active:hover .pager__link {
+  background: #F5170E;
+  color: #fff;
+}
+
+.pager__link {
+  display: block;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  font-weight: 700;
+  text-decoration: none;
+  line-height: 2;
+  transition: .3s;
+}
+
+.pager_theme_red .pager__item:hover .pager__link {
+  background: #F5170E;
+  color: #fff;
+}
+
+.pager_theme_red .pager__item_active .pager__link {
+  background: #F5170E;
+  color: #fff;
+}

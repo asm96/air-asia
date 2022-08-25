@@ -1,0 +1,13 @@
+.contacts {
+  font-style: normal;
+  text-align: right;
+}
+
+.contacts__phone {
+  text-decoration: none;
+  font-size: 26px;
+}
+
+.contacts__desc {
+  font-size: 11px;
+}

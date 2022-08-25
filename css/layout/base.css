@@ -1,0 +1,80 @@
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  /* margin: 0; плохая практика обнулять у всех элементов margin и padding
+  padding: 0; */
+}
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+a {
+  color: inherit;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: normal;
+}
+
+p {
+  margin-top: 0;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle; /* вроде как убирает баг с прозрачной полосой под картинкой */
+}
+
+button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  height: 100%;
+  background: #001821;
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.42;
+  font-family: 'Open Sans', Helvetica, sans-serif;
+}
+
+.wrapper {
+  min-width: 1200px;
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper__content {
+  flex: 1;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1141px;
+}
+
+.main-page-wrapper {
+  background: url(../../img//bg/hero.jpeg) center top no-repeat, url(../../img/bg/bottom.jpeg) center bottom no-repeat;
+}

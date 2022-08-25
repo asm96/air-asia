@@ -1,0 +1,80 @@
+.social {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 70px;
+}
+
+.social__item {
+  margin-right: 10px;
+}
+
+.social__item:last-child {
+  margin-right: 0;
+}
+
+.social__link {
+  display: block;
+  text-decoration: none;
+  position: relative;
+  height: 36px;
+  width: 36px;
+}
+
+.social__link::before, .social__link::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 36px;
+  width: 36px;
+  background-image: url(../../img/icons/sprite.png);
+  transition: opacity .3s;
+}
+
+.social__link::before {
+  opacity: 0;
+}
+
+.social__link:hover::before {
+  opacity: 1;
+}
+
+.social__link:hover::after {
+  opacity: 0;
+}
+
+
+.social__item_icon_tg .social__link::after {
+  background-position: -66px -10px;
+}
+
+.social__item_icon_tg .social__link::before {
+  background-position: -10px -66px;
+}
+
+.social__item_icon_vk .social__link::after {
+  background-position: -10px -10px;
+}
+
+.social__item_icon_vk .social__link::before {
+  background-position: -66px -122px;
+}
+
+.social__item_icon_fb .social__link::after {
+  background-position: -122px -66px;
+}
+
+.social__item_icon_fb .social__link::before {
+  background-position: -10px -122px;
+}
+
+.social__item_icon_inst .social__link::after {
+  background-position: -66px -66px;
+}
+
+.social__item_icon_inst .social__link::before {
+  background-position: -122px -10px;
+}
